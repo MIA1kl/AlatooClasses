@@ -1,6 +1,4 @@
 package com.company;
-
-// Подсчет пробелов,
 class Main {
     public static void main(String[] args)
             throws java.io.IOException {
@@ -11,6 +9,4 @@ class Main {
             ch = (char) System.in.read();
             if(ch == 32) spaces++;
         } while (ch != '.');
-        System.out.println("Spaces: " + spaces);
-    }
-}
+        System.out.println("Spaces: " + spaces);    }}
